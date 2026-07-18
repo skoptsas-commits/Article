@@ -3,268 +3,299 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>LOAD/LOG — Weekly Sports Science Digest</title>
+<title>PACE/LOAD — Weekly Sports Science Digest</title>
 <meta name="description" content="Εβδομαδιαία ανασκόπηση επιστημονικής βιβλιογραφίας για wearables, load monitoring και αθλητική απόδοση.">
 <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
 
-<div class="shell">
+<header class="topbar">
+  <div class="wrap topbar-inner">
+    <div class="logo">PACE<span class="dot-flame">/</span>LOAD <span class="logo-sub">SPORTS SCIENCE DIGEST</span></div>
+    <nav class="pillnav">
+      <a class="pill on" href="#wearables">Wearables</a>
+      <a class="pill on" href="#running">Running</a>
+      <a class="pill on" href="#cycling">Cycling</a>
+      <a class="pill off" href="#">Football</a>
+      <a class="pill off" href="#">Basketball</a>
+      <a class="pill off" href="#">Marathon</a>
+      <a class="pill off" href="#">Triathlon</a>
+      <a class="pill off" href="#">Load Monitoring</a>
+    </nav>
+  </div>
+</header>
 
-  <!-- SIDEBAR -->
-  <aside class="sidebar">
-    <div class="brand">LOAD/LOG</div>
-    <div class="brand-sub">SPORTS SCIENCE DIGEST</div>
+<div class="wrap">
 
-    <div class="nav-label">Ενότητες</div>
-    <ul class="channels">
-      <li><a href="#wearables" class="active"><span><span class="dot" style="background:var(--amber)"></span>Wearables Technology</span><span class="count">06</span></a></li>
-      <li><a href="#running"><span><span class="dot" style="background:var(--teal)"></span>Running Performance</span><span class="count">05</span></a></li>
-      <li><a href="#" class="disabled"><span><span class="dot" style="background:var(--text-faint)"></span>Football Performance</span><span class="count">—</span></a></li>
-      <li><a href="#" class="disabled"><span><span class="dot" style="background:var(--text-faint)"></span>Basketball</span><span class="count">—</span></a></li>
-      <li><a href="#" class="disabled"><span><span class="dot" style="background:var(--text-faint)"></span>Marathon</span><span class="count">—</span></a></li>
-      <li><a href="#" class="disabled"><span><span class="dot" style="background:var(--text-faint)"></span>Triathlon</span><span class="count">—</span></a></li>
-      <li><a href="#" class="disabled"><span><span class="dot" style="background:var(--text-faint)"></span>Load Monitoring</span><span class="count">—</span></a></li>
-    </ul>
-
-    <div class="sidebar-foot">
-      <div><strong>Ανανέωση:</strong> κάθε Δευτέρα</div>
-      <div><strong>Τελευταία:</strong> 18 Ιουλ 2026</div>
-      <div><strong>Πηγές:</strong> PubMed · IJSPP · Frontiers · Sports Med</div>
+  <section class="hero">
+    <div class="hero-eyebrow"><span class="pulse"></span>Live · ενημέρωση κάθε Δευτέρα</div>
+    <h1>Ό,τι νέο βγαίνει στα <span>wearables</span> &amp; performance science, σε μία σελίδα</h1>
+    <p>Επιλεγμένη βιβλιογραφία από PubMed, IJSPP, Frontiers και Sports Medicine journals — μεταφρασμένη σε πρακτικά takeaways για προπονητές, φυσιοθεραπευτές και αθλητές.</p>
+    <div class="statrow">
+      <div class="stat"><div class="n">17</div><div class="l">Άρθρα αυτή την εβδομάδα</div></div>
+      <div class="stat"><div class="n">03</div><div class="l">Ενεργές ενότητες</div></div>
+      <div class="stat"><div class="n">08</div><div class="l">Πηγές peer-review</div></div>
     </div>
-  </aside>
+  </section>
 
-  <!-- MAIN -->
-  <main>
-
-    <section class="hero">
-      <div class="hero-eyebrow">Εβδομαδιαία ενημέρωση Νο.1</div>
-      <h1>Επιστημονική παρακολούθηση wearables &amp; αθλητικής απόδοσης</h1>
-      <p>Επιλεγμένη βιβλιογραφία από PubMed, peer-reviewed journals (IJSPP, Sports Medicine, Frontiers in Physiology) και κλινικές ανασκοπήσεις — με πρακτικό συμπέρασμα για προπονητές, φυσιοθεραπευτές και αθλητές.</p>
-      <div class="hero-stats">
-        <div class="hstat"><div class="n">11</div><div class="l">Άρθρα αυτή την εβδομάδα</div></div>
-        <div class="hstat"><div class="n">2</div><div class="l">Ενεργές ενότητες</div></div>
-        <div class="hstat"><div class="n">5</div><div class="l">Επιστημονικές πηγές</div></div>
-      </div>
-    </section>
-
-    <!-- WEARABLES SECTION -->
-    <section class="section" id="wearables">
-      <div class="section-head">
+  <!-- WEARABLES -->
+  <section class="section" id="wearables">
+    <div class="section-head">
+      <div class="section-title">
+        <div class="section-icon" style="background:var(--flame-soft)">⌚</div>
         <h2>Wearables Technology</h2>
-        <span class="section-tag">// 06 άρθρα</span>
       </div>
-      <p class="section-desc">Αισθητήρες, βιοδείκτες ιδρώτα, GPS/IMU συστήματα και η εγκυρότητά τους στην παρακολούθηση φυσιολογίας αθλητών.</p>
+      <span class="section-count">06 άρθρα</span>
+    </div>
+    <p class="section-desc">Αισθητήρες, βιοδείκτες ιδρώτα, GPS/IMU συστήματα και η εγκυρότητά τους στην παρακολούθηση φυσιολογίας.</p>
 
-      <div class="cards">
+    <div class="grid">
 
-        <article class="card">
-          <div class="card-meta">
-            <span class="src-tag journal">Frontiers in Physiology</span>
-            <span>Απρ 2024</span>
-          </div>
-          <h3><a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC11025537/" target="_blank" rel="noopener">Wearable device for continuous sweat lactate monitoring in sports: a narrative review</a></h3>
-          <p class="summary">Ανασκόπηση 34 προϊόντων μη επεμβατικής παρακολούθησης γαλακτικού μέσω ιδρώτα, ως εναλλακτική στις παραδοσιακές αιμοληψίες για τον προσδιορισμό ουδού γαλακτικού.</p>
-          <div class="takeaway">
-            <span class="tk-label">TAKEAWAY</span>
-            <span>Η τεχνολογία sweat-lactate πλησιάζει σε αξιοπιστία, αλλά ακόμη δεν αντικαθιστά πλήρως εργαστηριακό test ουδού.</span>
-          </div>
-          <div class="card-foot">
-            <a class="card-link" href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC11025537/" target="_blank" rel="noopener">DOI: 10.3389/fphys.2024.1376801 →</a>
-          </div>
-        </article>
+      <article class="card">
+        <div class="card-top">
+          <div><div class="metric-badge" style="color:var(--flame)">34</div><div class="metric-label">προϊόντα review</div></div>
+          <span class="src-pill" style="background:var(--flame-soft);color:var(--flame)">Frontiers Physiol.</span>
+        </div>
+        <h3><a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC11025537/" target="_blank" rel="noopener">Continuous sweat lactate monitoring in sports: a narrative review</a></h3>
+        <p class="summary">Ανασκόπηση 34 προϊόντων μη επεμβατικής παρακολούθησης γαλακτικού μέσω ιδρώτα, εναλλακτική στις παραδοσιακές αιμοληψίες για τον ουδό γαλακτικού.</p>
+        <div class="takeaway"><b style="color:var(--flame)">TAKEAWAY</b>Πλησιάζει σε αξιοπιστία, αλλά δεν αντικαθιστά ακόμη το εργαστηριακό test ουδού.</div>
+        <div class="card-foot"><span>2024 · DOI 10.3389/fphys.2024.1376801</span><a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC11025537/" target="_blank" rel="noopener">Άνοιγμα →</a></div>
+      </article>
 
-        <article class="card">
-          <div class="card-meta">
-            <span class="src-tag journal">PubMed</span>
-            <span>Νοε 2024</span>
-          </div>
-          <h3><a href="https://pubmed.ncbi.nlm.nih.gov/39727839/" target="_blank" rel="noopener">Advanced Wearable Devices for Monitoring Sweat Biochemical Markers in Athletic Performance</a></h3>
-          <p class="summary">Συνολική ανασκόπηση βιοαισθητήρων (epidermal patches, temporary tattoos) που ανιχνεύουν γλυκόζη, ηλεκτρολύτες, pH και κορτιζόλη μέσω ιδρώτα για αξιολόγηση ενυδάτωσης και stress.</p>
-          <div class="takeaway">
-            <span class="tk-label">TAKEAWAY</span>
-            <span>Οι ηλεκτροχημικές μέθοδοι έχουν καλύτερη ακρίβεια από τις χρωματομετρικές, αλλά είναι πιο ευαίσθητες σε παρεμβολές σήματος.</span>
-          </div>
-          <div class="card-foot">
-            <a class="card-link" href="https://pubmed.ncbi.nlm.nih.gov/39727839/" target="_blank" rel="noopener">PMID: 39727839 →</a>
-          </div>
-        </article>
+      <article class="card">
+        <div class="card-top">
+          <div><div class="metric-badge" style="color:var(--flame)">4</div><div class="metric-label">βιοδείκτες ιδρώτα</div></div>
+          <span class="src-pill" style="background:var(--flame-soft);color:var(--flame)">PubMed</span>
+        </div>
+        <h3><a href="https://pubmed.ncbi.nlm.nih.gov/39727839/" target="_blank" rel="noopener">Advanced Wearable Devices for Monitoring Sweat Biochemical Markers</a></h3>
+        <p class="summary">Βιοαισθητήρες (epidermal patches, temporary tattoos) που ανιχνεύουν γλυκόζη, ηλεκτρολύτες, pH και κορτιζόλη για ενυδάτωση και stress.</p>
+        <div class="takeaway"><b style="color:var(--flame)">TAKEAWAY</b>Ηλεκτροχημικές μέθοδοι = καλύτερη ακρίβεια, αλλά πιο ευαίσθητες σε παρεμβολές σήματος.</div>
+        <div class="card-foot"><span>2024 · PMID 39727839</span><a href="https://pubmed.ncbi.nlm.nih.gov/39727839/" target="_blank" rel="noopener">Άνοιγμα →</a></div>
+      </article>
 
-        <article class="card">
-          <div class="card-meta">
-            <span class="src-tag journal">npj Digital Medicine</span>
-            <span>2019 · foundational</span>
-          </div>
-          <h3><a href="https://www.nature.com/articles/s41746-019-0150-9" target="_blank" rel="noopener">Wearable sensors for monitoring the physiological and biochemical profile of the athlete</a></h3>
-          <p class="summary">Θεμελιώδης ανασκόπηση για wearables που παρακολουθούν εσωτερικό φορτίο μέσω σάλιου/ιδρώτα, HRV και galvanic skin response — συνδέοντας βιοδείκτες με νοητική οξύτητα και stress.</p>
-          <div class="takeaway">
-            <span class="tk-label">TAKEAWAY</span>
-            <span>Το εσωτερικό φορτίο παραμένει το «κενό» της τεχνολογίας — τα περισσότερα συστήματα εξακολουθούν να επικεντρώνονται στο εξωτερικό (GPS/κίνηση).</span>
-          </div>
-          <div class="card-foot">
-            <a class="card-link" href="https://www.nature.com/articles/s41746-019-0150-9" target="_blank" rel="noopener">DOI: 10.1038/s41746-019-0150-9 →</a>
-          </div>
-        </article>
+      <article class="card">
+        <div class="card-top">
+          <div><div class="metric-badge" style="color:var(--flame)">2019</div><div class="metric-label">foundational review</div></div>
+          <span class="src-pill" style="background:var(--flame-soft);color:var(--flame)">npj Digital Med</span>
+        </div>
+        <h3><a href="https://www.nature.com/articles/s41746-019-0150-9" target="_blank" rel="noopener">Wearable sensors for monitoring the physiological &amp; biochemical profile of the athlete</a></h3>
+        <p class="summary">Θεμελιώδης ανασκόπηση για wearables που παρακολουθούν εσωτερικό φορτίο μέσω σάλιου/ιδρώτα, HRV και galvanic skin response.</p>
+        <div class="takeaway"><b style="color:var(--flame)">TAKEAWAY</b>Το εσωτερικό φορτίο παραμένει το «κενό» — τα περισσότερα συστήματα εστιάζουν στο εξωτερικό (GPS/κίνηση).</div>
+        <div class="card-foot"><span>2019 · DOI 10.1038/s41746-019-0150-9</span><a href="https://www.nature.com/articles/s41746-019-0150-9" target="_blank" rel="noopener">Άνοιγμα →</a></div>
+      </article>
 
-        <article class="card">
-          <div class="card-meta">
-            <span class="src-tag journal">PubMed</span>
-            <span>Ιουλ 2023</span>
-          </div>
-          <h3><a href="https://pubmed.ncbi.nlm.nih.gov/37434736/" target="_blank" rel="noopener">Wearable technology in the sports medicine clinic to guide return-to-play protocols post-COVID-19</a></h3>
-          <p class="summary">Πρακτικές συστάσεις για χρήση wearables στην παρακολούθηση καρδιοαναπνευστικού και μυοσκελετικού φορτίου κατά την επιστροφή αθλητών στην προπόνηση μετά από λοίμωξη.</p>
-          <div class="takeaway">
-            <span class="tk-label">TAKEAWAY</span>
-            <span>Η ισορροπία τοπικού ιστικού φορτίου με φορτίο ειδικού αθλήματος είναι κρίσιμη — όχι μόνο ο συνολικός όγκος.</span>
-          </div>
-          <div class="card-foot">
-            <a class="card-link" href="https://pubmed.ncbi.nlm.nih.gov/37434736/" target="_blank" rel="noopener">PMID: 37434736 →</a>
-          </div>
-        </article>
+      <article class="card">
+        <div class="card-top">
+          <div><div class="metric-badge" style="color:var(--flame)">RTP</div><div class="metric-label">return-to-play</div></div>
+          <span class="src-pill" style="background:var(--flame-soft);color:var(--flame)">PubMed</span>
+        </div>
+        <h3><a href="https://pubmed.ncbi.nlm.nih.gov/37434736/" target="_blank" rel="noopener">Wearable tech για return-to-play protocols μετά από COVID-19</a></h3>
+        <p class="summary">Πρακτικές συστάσεις χρήσης wearables στην παρακολούθηση καρδιοαναπνευστικού και μυοσκελετικού φορτίου κατά την επιστροφή σε προπόνηση.</p>
+        <div class="takeaway"><b style="color:var(--flame)">TAKEAWAY</b>Η ισορροπία τοπικού φορτίου με φορτίο ειδικού αθλήματος είναι κρίσιμη, όχι μόνο ο συνολικός όγκος.</div>
+        <div class="card-foot"><span>2023 · PMID 37434736</span><a href="https://pubmed.ncbi.nlm.nih.gov/37434736/" target="_blank" rel="noopener">Άνοιγμα →</a></div>
+      </article>
 
-        <article class="card">
-          <div class="card-meta">
-            <span class="src-tag journal">PubMed</span>
-            <span>2021 · Tokyo 2020</span>
-          </div>
-          <h3><a href="https://pubmed.ncbi.nlm.nih.gov/34256539/" target="_blank" rel="noopener">Wearable and telemedicine innovations for Olympic events and elite sport</a></h3>
-          <p class="summary">Περιγραφή real-time monitoring συστημάτων (smartwatch ecosystem) που χρησιμοποιήθηκαν σε μαραθώνιο, τριάθλο και ποδηλασία στους Ολυμπιακούς του Τόκιο για φυσιολογική και θερμική καταπόνηση.</p>
-          <div class="takeaway">
-            <span class="tk-label">TAKEAWAY</span>
-            <span>Cloud-based real-time δεδομένα επιτρέπουν ταχύτερη ιατρική διάγνωση σε επείγοντα περιστατικά θερμικής καταπόνησης.</span>
-          </div>
-          <div class="card-foot">
-            <a class="card-link" href="https://pubmed.ncbi.nlm.nih.gov/34256539/" target="_blank" rel="noopener">PMID: 34256539 →</a>
-          </div>
-        </article>
+      <article class="card">
+        <div class="card-top">
+          <div><div class="metric-badge" style="color:var(--flame)">2020</div><div class="metric-label">Tokyo Olympics</div></div>
+          <span class="src-pill" style="background:var(--flame-soft);color:var(--flame)">PubMed</span>
+        </div>
+        <h3><a href="https://pubmed.ncbi.nlm.nih.gov/34256539/" target="_blank" rel="noopener">Wearable &amp; telemedicine innovations for Olympic events and elite sport</a></h3>
+        <p class="summary">Real-time monitoring συστήματα σε μαραθώνιο, τριάθλο και ποδηλασία στους Ολυμπιακούς του Τόκιο, για φυσιολογική/θερμική καταπόνηση.</p>
+        <div class="takeaway"><b style="color:var(--flame)">TAKEAWAY</b>Cloud-based real-time δεδομένα επιταχύνουν την ιατρική διάγνωση σε επείγοντα περιστατικά.</div>
+        <div class="card-foot"><span>2021 · PMID 34256539</span><a href="https://pubmed.ncbi.nlm.nih.gov/34256539/" target="_blank" rel="noopener">Άνοιγμα →</a></div>
+      </article>
 
-        <article class="card">
-          <div class="card-meta">
-            <span class="src-tag journal">ResearchGate / Scopus review</span>
-            <span>Μάι 2025</span>
-          </div>
-          <h3><a href="https://www.researchgate.net/publication/391885858_Wearable_Technology_for_Performance_Monitoring_in_Athletes" target="_blank" rel="noopener">Wearable Technology for Performance Monitoring in Athletes — narrative review (55 papers)</a></h3>
-          <p class="summary">Ταξινόμηση wearables σε location-based (GPS/κίνηση), physiological (HR/HRV) και biochemical κατηγορίες, με έμφαση στα «marginal gains» που προσφέρουν στην απόδοση.</p>
-          <div class="takeaway">
-            <span class="tk-label">TAKEAWAY</span>
-            <span>Τα location-based wearables έχουν την ισχυρότερη τεκμηρίωση για πρόληψη τραυματισμού μέσω ανάλυσης patterns προπόνησης.</span>
-          </div>
-          <div class="card-foot">
-            <a class="card-link" href="https://www.researchgate.net/publication/391885858_Wearable_Technology_for_Performance_Monitoring_in_Athletes" target="_blank" rel="noopener">ResearchGate →</a>
-          </div>
-        </article>
+      <article class="card">
+        <div class="card-top">
+          <div><div class="metric-badge" style="color:var(--flame)">55</div><div class="metric-label">papers reviewed</div></div>
+          <span class="src-pill" style="background:var(--flame-soft);color:var(--flame)">ResearchGate</span>
+        </div>
+        <h3><a href="https://www.researchgate.net/publication/391885858_Wearable_Technology_for_Performance_Monitoring_in_Athletes" target="_blank" rel="noopener">Wearable Technology for Performance Monitoring in Athletes</a></h3>
+        <p class="summary">Ταξινόμηση wearables σε location-based, physiological και biochemical κατηγορίες με έμφαση στα «marginal gains» απόδοσης.</p>
+        <div class="takeaway"><b style="color:var(--flame)">TAKEAWAY</b>Τα location-based wearables έχουν ισχυρότερη τεκμηρίωση για πρόληψη τραυματισμού.</div>
+        <div class="card-foot"><span>2025 · Scopus review</span><a href="https://www.researchgate.net/publication/391885858_Wearable_Technology_for_Performance_Monitoring_in_Athletes" target="_blank" rel="noopener">Άνοιγμα →</a></div>
+      </article>
 
-      </div>
-    </section>
+    </div>
+  </section>
 
-    <!-- RUNNING SECTION -->
-    <section class="section" id="running">
-      <div class="section-head">
+  <!-- RUNNING -->
+  <section class="section" id="running">
+    <div class="section-head">
+      <div class="section-title">
+        <div class="section-icon" style="background:var(--volt-soft)">🏃</div>
         <h2>Running Performance</h2>
-        <span class="section-tag">// 05 άρθρα</span>
       </div>
-      <p class="section-desc">Training load, εγκυρότητα GPS/HR δεδομένων και προπονητικές παρεμβάσεις σε δρομείς αντοχής.</p>
+      <span class="section-count">05 άρθρα</span>
+    </div>
+    <p class="section-desc">Training load, εγκυρότητα GPS/HR δεδομένων και προπονητικές παρεμβάσεις σε δρομείς αντοχής.</p>
 
-      <div class="cards">
+    <div class="grid">
 
-        <article class="card">
-          <div class="card-meta">
-            <span class="src-tag">IJSPP</span>
-            <span>Φεβ 2026 · ahead of print</span>
-          </div>
-          <h3><a href="https://journals.humankinetics.com/view/journals/ijspp/aop/article-10.1123-ijspp.2025-0348/article-10.1123-ijspp.2025-0348.xml" target="_blank" rel="noopener">Training Intensity Distribution, Load Management, and Performance in Recreational Long-Distance Runners</a></h3>
-          <p class="summary">48 ερασιτέχνες δρομείς (μαραθώνιο/ημιμαραθώνιο) παρακολουθήθηκαν 12 εβδομάδες με GPS και HR monitors· ανάλυση εσωτερικού φορτίου (eTRIMP) ανά ζώνη έντασης σε σχέση με τελική επίδοση.</p>
-          <div class="takeaway">
-            <span class="tk-label">TAKEAWAY</span>
-            <span>Η κατανομή έντασης προπόνησης (όχι μόνο ο όγκος) φαίνεται να σχετίζεται πιο άμεσα με την τελική επίδοση αγώνα.</span>
-          </div>
-          <div class="card-foot">
-            <a class="card-link" href="https://journals.humankinetics.com/view/journals/ijspp/aop/article-10.1123-ijspp.2025-0348/article-10.1123-ijspp.2025-0348.xml" target="_blank" rel="noopener">DOI: 10.1123/ijspp.2025-0348 →</a>
-          </div>
-        </article>
+      <article class="card">
+        <div class="card-top">
+          <div><div class="metric-badge" style="color:var(--volt)">48</div><div class="metric-label">δρομείς, 12 εβδ.</div></div>
+          <span class="src-pill" style="background:var(--volt-soft);color:var(--volt)">IJSPP</span>
+        </div>
+        <h3><a href="https://journals.humankinetics.com/view/journals/ijspp/aop/article-10.1123-ijspp.2025-0348/article-10.1123-ijspp.2025-0348.xml" target="_blank" rel="noopener">Training Intensity Distribution &amp; Performance σε ερασιτέχνες δρομείς αντοχής</a></h3>
+        <p class="summary">48 δρομείς μαραθωνίου/ημιμαραθωνίου παρακολουθήθηκαν 12 εβδομάδες με GPS+HR· ανάλυση εσωτερικού φορτίου (eTRIMP) ανά ζώνη έντασης.</p>
+        <div class="takeaway"><b style="color:var(--volt)">TAKEAWAY</b>Η κατανομή έντασης σχετίζεται πιο άμεσα με την τελική επίδοση απ' ό,τι ο συνολικός όγκος.</div>
+        <div class="card-foot"><span>2026 · DOI 10.1123/ijspp.2025-0348</span><a href="https://journals.humankinetics.com/view/journals/ijspp/aop/article-10.1123-ijspp.2025-0348/article-10.1123-ijspp.2025-0348.xml" target="_blank" rel="noopener">Άνοιγμα →</a></div>
+      </article>
 
-        <article class="card">
-          <div class="card-meta">
-            <span class="src-tag">PubMed</span>
-            <span>Μάι 2022</span>
-          </div>
-          <h3><a href="https://pubmed.ncbi.nlm.nih.gov/35606093/" target="_blank" rel="noopener">GPS Watches vs Electronic Journals: Are Training-Load Measures Similar in High School Cross-Country Runners?</a></h3>
-          <p class="summary">Σύγκριση self-report ημερολογίων με GPS-watch δεδομένα σε 22 σχολικούς δρομείς αντοχής· μέτρια συσχέτιση σε εξωτερικό φορτίο (r=.70–.76), αδύναμη σε εσωτερικό φορτίο (sRPE vs HR).</p>
-          <div class="takeaway">
-            <span class="tk-label">TAKEAWAY</span>
-            <span>Οι δρομείς τείνουν να υπερεκτιμούν απόσταση/διάρκεια σε self-report — το GPS watch παραμένει πιο αξιόπιστο για εξωτερικό φορτίο.</span>
-          </div>
-          <div class="card-foot">
-            <a class="card-link" href="https://pubmed.ncbi.nlm.nih.gov/35606093/" target="_blank" rel="noopener">PMID: 35606093 →</a>
-          </div>
-        </article>
+      <article class="card">
+        <div class="card-top">
+          <div><div class="metric-badge" style="color:var(--volt)">r=.76</div><div class="metric-label">συσχέτιση GPS</div></div>
+          <span class="src-pill" style="background:var(--volt-soft);color:var(--volt)">PubMed</span>
+        </div>
+        <h3><a href="https://pubmed.ncbi.nlm.nih.gov/35606093/" target="_blank" rel="noopener">GPS watches vs. ημερολόγια σε σχολικούς δρομείς cross-country</a></h3>
+        <p class="summary">Σύγκριση self-report ημερολογίων με GPS-watch δεδομένα σε 22 δρομείς· μέτρια συσχέτιση σε εξωτερικό φορτίο, αδύναμη σε εσωτερικό (sRPE vs HR).</p>
+        <div class="takeaway"><b style="color:var(--volt)">TAKEAWAY</b>Οι δρομείς υπερεκτιμούν απόσταση/διάρκεια σε self-report — το GPS watch παραμένει πιο αξιόπιστο.</div>
+        <div class="card-foot"><span>2022 · PMID 35606093</span><a href="https://pubmed.ncbi.nlm.nih.gov/35606093/" target="_blank" rel="noopener">Άνοιγμα →</a></div>
+      </article>
 
-        <article class="card">
-          <div class="card-meta">
-            <span class="src-tag">ACSM · Med Sci Sports Exerc</span>
-            <span>2025</span>
-          </div>
-          <h3><a href="https://www.fisiologiadelejercicio.com/wp-content/uploads/2025/03/Strength-Training-Improves-Running-Economy-Durability-and-Fatigued.pdf" target="_blank" rel="noopener">Strength Training Improves Running Economy, Durability and Fatigued High-Intensity Performance in Well-Trained Male Runners</a></h3>
-          <p class="summary">Randomized trial (Loughborough University) που εξετάζει την επίδραση συμπληρωματικής προπόνησης δύναμης στην οικονομία τρεξίματος και στην απόδοση υπό κόπωση σε καλά προπονημένους δρομείς.</p>
-          <div class="takeaway">
-            <span class="tk-label">TAKEAWAY</span>
-            <span>Η δύναμη δεν βελτιώνει μόνο την «αντοχή» — φαίνεται να προστατεύει την οικονομία τρεξίματος όταν ο δρομέας είναι ήδη κουρασμένος, κάτι κρίσιμο σε αγώνα.</span>
-          </div>
-          <div class="card-foot">
-            <a class="card-link" href="https://www.fisiologiadelejercicio.com/wp-content/uploads/2025/03/Strength-Training-Improves-Running-Economy-Durability-and-Fatigued.pdf" target="_blank" rel="noopener">ACSM 2025 PDF →</a>
-          </div>
-        </article>
+      <article class="card">
+        <div class="card-top">
+          <div><div class="metric-badge" style="color:var(--volt)">RCT</div><div class="metric-label">randomized trial</div></div>
+          <span class="src-pill" style="background:var(--volt-soft);color:var(--volt)">ACSM</span>
+        </div>
+        <h3><a href="https://www.fisiologiadelejercicio.com/wp-content/uploads/2025/03/Strength-Training-Improves-Running-Economy-Durability-and-Fatigued.pdf" target="_blank" rel="noopener">Strength training βελτιώνει running economy υπό κόπωση</a></h3>
+        <p class="summary">Randomized trial (Loughborough) για την επίδραση συμπληρωματικής προπόνησης δύναμης στην οικονομία τρεξίματος υπό κόπωση σε προπονημένους δρομείς.</p>
+        <div class="takeaway"><b style="color:var(--volt)">TAKEAWAY</b>Η δύναμη προστατεύει την οικονομία τρεξίματος όταν ο δρομέας είναι ήδη κουρασμένος — κρίσιμο σε αγώνα.</div>
+        <div class="card-foot"><span>2025 · Med Sci Sports Exerc</span><a href="https://www.fisiologiadelejercicio.com/wp-content/uploads/2025/03/Strength-Training-Improves-Running-Economy-Durability-and-Fatigued.pdf" target="_blank" rel="noopener">Άνοιγμα →</a></div>
+      </article>
 
-        <article class="card">
-          <div class="card-meta">
-            <span class="src-tag journal">Frontiers in Sports and Active Living</span>
-            <span>2020</span>
-          </div>
-          <h3><a href="https://www.frontiersin.org/journals/sports-and-active-living/articles/10.3389/fspor.2020.575596" target="_blank" rel="noopener">Accelerometer Based Data Can Provide a Better Estimate of Cumulative Load During Running Compared to GPS Based Parameters</a></h3>
-          <p class="summary">Επικύρωση φορητού συστήματος επιτάχυνσης σε 96 δρομείς/498 προπονήσεις· η κατακόρυφη επιτάχυνση εξηγεί το 80% της κάθετης δύναμης αντίδρασης εδάφους, ενώ τα GPS metrics εξηγούν μόλις το 70% του αθροιστικού φορτίου.</p>
-          <div class="takeaway">
-            <span class="tk-label">TAKEAWAY</span>
-            <span>Απόσταση + ταχύτητα από μόνα τους υποεκτιμούν το πραγματικό μυοσκελετικό φορτίο — το accelerometer data προσθέτει κρίσιμη πληροφορία για πρόληψη τραυματισμού.</span>
-          </div>
-          <div class="card-foot">
-            <a class="card-link" href="https://www.frontiersin.org/journals/sports-and-active-living/articles/10.3389/fspor.2020.575596" target="_blank" rel="noopener">DOI: 10.3389/fspor.2020.575596 →</a>
-          </div>
-        </article>
+      <article class="card">
+        <div class="card-top">
+          <div><div class="metric-badge" style="color:var(--volt)">80%</div><div class="metric-label">GRF explained</div></div>
+          <span class="src-pill" style="background:var(--volt-soft);color:var(--volt)">Frontiers</span>
+        </div>
+        <h3><a href="https://www.frontiersin.org/journals/sports-and-active-living/articles/10.3389/fspor.2020.575596" target="_blank" rel="noopener">Accelerometer data εκτιμά καλύτερα το φορτίο απ' το GPS</a></h3>
+        <p class="summary">Επικύρωση σε 96 δρομείς/498 προπονήσεις· η κάθετη επιτάχυνση εξηγεί το 80% της δύναμης αντίδρασης εδάφους, ενώ GPS metrics μόνο το 70% του φορτίου.</p>
+        <div class="takeaway"><b style="color:var(--volt)">TAKEAWAY</b>Απόσταση+ταχύτητα υποεκτιμούν το μυοσκελετικό φορτίο — το accelerometer προσθέτει κρίσιμη πληροφορία.</div>
+        <div class="card-foot"><span>2020 · DOI 10.3389/fspor.2020.575596</span><a href="https://www.frontiersin.org/journals/sports-and-active-living/articles/10.3389/fspor.2020.575596" target="_blank" rel="noopener">Άνοιγμα →</a></div>
+      </article>
 
-        <article class="card">
-          <div class="card-meta">
-            <span class="src-tag">MDPI · Applied Sciences</span>
-            <span>Νοε 2024</span>
-          </div>
-          <h3><a href="https://www.mdpi.com/2076-3417/14/22/10465" target="_blank" rel="noopener">Load Monitoring Methods for Controlling Training Effectiveness on Physical Conditioning: A Narrative Review</a></h3>
-          <p class="summary">Ανασκόπηση μεθόδων παρακολούθησης φορτίου (accelerometry, ερωτηματολόγια, βιοδείκτες) με αναφορά στο consensus statement του IJSPP (Bourdon et al., 2017) για monitoring προπονητικού φορτίου αθλητών.</p>
-          <div class="takeaway">
-            <span class="tk-label">TAKEAWAY</span>
-            <span>Κανένα μεμονωμένο εργαλείο δεν επαρκεί — το consensus της βιβλιογραφίας είναι συνδυασμός εξωτερικού + εσωτερικού + υποκειμενικού δείκτη φορτίου.</span>
-          </div>
-          <div class="card-foot">
-            <a class="card-link" href="https://www.mdpi.com/2076-3417/14/22/10465" target="_blank" rel="noopener">MDPI 2024 →</a>
-          </div>
-        </article>
+      <article class="card">
+        <div class="card-top">
+          <div><div class="metric-badge" style="color:var(--volt)">3+1</div><div class="metric-label">τύποι δεδομένων</div></div>
+          <span class="src-pill" style="background:var(--volt-soft);color:var(--volt)">MDPI</span>
+        </div>
+        <h3><a href="https://www.mdpi.com/2076-3417/14/22/10465" target="_blank" rel="noopener">Load Monitoring Methods: A Narrative Review</a></h3>
+        <p class="summary">Ανασκόπηση μεθόδων παρακολούθησης φορτίου (accelerometry, ερωτηματολόγια, βιοδείκτες) με αναφορά στο IJSPP consensus statement (Bourdon et al. 2017).</p>
+        <div class="takeaway"><b style="color:var(--volt)">TAKEAWAY</b>Κανένα μεμονωμένο εργαλείο δεν επαρκεί — χρειάζεται συνδυασμός εξωτερικού+εσωτερικού+υποκειμενικού δείκτη.</div>
+        <div class="card-foot"><span>2024 · Applied Sciences</span><a href="https://www.mdpi.com/2076-3417/14/22/10465" target="_blank" rel="noopener">Άνοιγμα →</a></div>
+      </article>
 
+    </div>
+  </section>
+
+  <!-- CYCLING -->
+  <section class="section" id="cycling">
+    <div class="section-head">
+      <div class="section-title">
+        <div class="section-icon" style="background:var(--sky-soft)">🚴</div>
+        <h2>Cycling</h2>
       </div>
-    </section>
+      <span class="section-count">06 άρθρα</span>
+    </div>
+    <p class="section-desc">Power meters, εγκυρότητα δεδομένων ισχύος και προπόνηση δύναμης on-bike vs off-bike σε ποδηλάτες.</p>
 
-    <!-- UPCOMING SECTIONS PLACEHOLDER -->
-    <section class="section">
-      <div class="section-head">
-        <h2 style="color:var(--text-faint)">Επόμενες ενότητες</h2>
+    <div class="grid">
+
+      <article class="card">
+        <div class="card-top">
+          <div><div class="metric-badge" style="color:var(--sky)">RCT</div><div class="metric-label">on-bike vs off-bike</div></div>
+          <span class="src-pill" style="background:var(--sky-soft);color:var(--sky)">PMC</span>
+        </div>
+        <h3><a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC12244400/" target="_blank" rel="noopener">On-bike υψηλής έντασης αντίσταση αρκεί για δύναμη &amp; pedaling performance</a></h3>
+        <p class="summary">Randomized controlled trial που συγκρίνει off-bike με on-bike προπόνηση αντίστασης σε καλά προπονημένους ποδηλάτες, με μέτρηση δομής μυός-τένοντα.</p>
+        <div class="takeaway"><b style="color:var(--sky)">TAKEAWAY</b>Οι ποδηλάτες δεν χρειάζονται απαραίτητα εξωτερική προπόνηση βαρών — το on-bike μπορεί να επαρκεί.</div>
+        <div class="card-foot"><span>2025 · PMC12244400</span><a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC12244400/" target="_blank" rel="noopener">Άνοιγμα →</a></div>
+      </article>
+
+      <article class="card">
+        <div class="card-top">
+          <div><div class="metric-badge" style="color:var(--sky)">31</div><div class="metric-label">ποδηλάτες test</div></div>
+          <span class="src-pill" style="background:var(--sky-soft);color:var(--sky)">Sensors (MDPI)</span>
+        </div>
+        <h3><a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC12074199/" target="_blank" rel="noopener">Validity of the Quarq Cycling Power Meter</a></h3>
+        <p class="summary">Αξιολόγηση εγκυρότητας του Quarq D-Zero έναντι Favero Assioma Duo και Saris H3, σε 31 προπονημένους ποδηλάτες, 100–500W και sprint tests.</p>
+        <div class="takeaway"><b style="color:var(--sky)">TAKEAWAY</b>Καλή συμφωνία στα σταθερά φορτία — μεγαλύτερες αποκλίσεις σε all-out sprint efforts.</div>
+        <div class="card-foot"><span>2025 · DOI 10.3390/s25092717</span><a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC12074199/" target="_blank" rel="noopener">Άνοιγμα →</a></div>
+      </article>
+
+      <article class="card">
+        <div class="card-top">
+          <div><div class="metric-badge" style="color:var(--sky)">11</div><div class="metric-label">συσκευές σύγκρισης</div></div>
+          <span class="src-pill" style="background:var(--sky-soft);color:var(--sky)">Sensors (MDPI)</span>
+        </div>
+        <h3><a href="https://doi.org/10.3390/s25020295" target="_blank" rel="noopener">Εξαρτώνται τα power meter data από τη συσκευή καταγραφής;</a></h3>
+        <p class="summary">Σύγκριση 11 διαφορετικών cycle computers σε graded exercise test, 1-min efforts και sprint — σε 8-30 ποδηλάτες ανά φάση.</p>
+        <div class="takeaway"><b style="color:var(--sky)">TAKEAWAY</b>Σε σταθερό φορτίο η συμφωνία είναι καλή, αλλά σε high-intensity/sprint efforts εμφανίζονται σημαντικές διαφορές μεταξύ συσκευών.</div>
+        <div class="card-foot"><span>2025 · DOI 10.3390/s25020295</span><a href="https://doi.org/10.3390/s25020295" target="_blank" rel="noopener">Άνοιγμα →</a></div>
+      </article>
+
+      <article class="card">
+        <div class="card-top">
+          <div><div class="metric-badge" style="color:var(--sky)">12</div><div class="metric-label">ποδηλάτες/τριαθλητές</div></div>
+          <span class="src-pill" style="background:var(--sky-soft);color:var(--sky)">PMC</span>
+        </div>
+        <h3><a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8071453/" target="_blank" rel="noopener">Are Assioma Favero pedals αξιόπιστα για power monitoring;</a></h3>
+        <p class="summary">Σύγκριση Assioma Favero pedal-based power meter με gold-standard SRM crankset σε 12 ποδηλάτες/τριαθλητές, εύρος 100–650W.</p>
+        <div class="takeaway"><b style="color:var(--sky)">TAKEAWAY</b>Πολύ υψηλή αξιοπιστία εντός-test και εξαιρετική συμφωνία στο εύρος 100–250W με το gold standard.</div>
+        <div class="card-foot"><span>2021 · PMC8071453</span><a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8071453/" target="_blank" rel="noopener">Άνοιγμα →</a></div>
+      </article>
+
+      <article class="card">
+        <div class="card-top">
+          <div><div class="metric-badge" style="color:var(--sky)">GE 19%</div><div class="metric-label">gross efficiency</div></div>
+          <span class="src-pill" style="background:var(--sky-soft);color:var(--sky)">PubMed</span>
+        </div>
+        <h3><a href="https://pubmed.ncbi.nlm.nih.gov/23470312/" target="_blank" rel="noopener">Energy expenditure σε cycling: εκτιμήσεις με power meter</a></h3>
+        <p class="summary">Σε προπονημένες ποδηλάτισσες δρόμου, το συνολικό μηχανικό έργο (kJ) ×5.3 δίνει έγκυρη εκτίμηση ενεργειακής δαπάνης σε variable-intensity cycling.</p>
+        <div class="takeaway"><b style="color:var(--sky)">TAKEAWAY</b>Ο εξατομικευμένος υπολογισμός gross efficiency βελτιώνει σημαντικά την ακρίβεια έναντι γενικού συντελεστή.</div>
+        <div class="card-foot"><span>PMID 23470312</span><a href="https://pubmed.ncbi.nlm.nih.gov/23470312/" target="_blank" rel="noopener">Άνοιγμα →</a></div>
+      </article>
+
+      <article class="card">
+        <div class="card-top">
+          <div><div class="metric-badge" style="color:var(--sky)">PRISMA</div><div class="metric-label">συστηματική ανασκόπηση</div></div>
+          <span class="src-pill" style="background:var(--sky-soft);color:var(--sky)">Sustainability</span>
+        </div>
+        <h3><a href="https://doi.org/10.3390/su12125216" target="_blank" rel="noopener">Power Assessment in Road Cycling: A Narrative Review</a></h3>
+        <p class="summary">Συστηματική ανασκόπηση PRISMA πάνω σε functional threshold power (FTP) testing — πρωτόκολλα, εγκυρότητα και power profiling ποδηλατών.</p>
+        <div class="takeaway"><b style="color:var(--sky)">TAKEAWAY</b>Το 20-min FTP test παραμένει το πιο μελετημένο πρωτόκολλο, αλλά συντομότερες δοκιμασίες μπορούν να δουλέψουν αν επικυρωθούν ατομικά.</div>
+        <div class="card-foot"><span>2020 · DOI 10.3390/su12125216</span><a href="https://doi.org/10.3390/su12125216" target="_blank" rel="noopener">Άνοιγμα →</a></div>
+      </article>
+
+    </div>
+  </section>
+
+  <!-- UPCOMING -->
+  <section class="section">
+    <div class="section-head">
+      <div class="section-title">
+        <div class="section-icon" style="background:var(--violet-soft)">＋</div>
+        <h2 style="color:var(--text-dim)">Επόμενες ενότητες</h2>
       </div>
-      <p class="section-desc">Football Performance, Basketball, Marathon, Triathlon και Load Monitoring θα προστίθενται σταδιακά τις επόμενες εβδομάδες.</p>
-      <div class="placeholder">Football · Basketball · Marathon · Triathlon · Load Monitoring — coming soon</div>
-    </section>
+    </div>
+    <p class="section-desc">Football, Basketball, Marathon, Triathlon και Load Monitoring προστίθενται σταδιακά τις επόμενες εβδομάδες.</p>
+    <div class="placeholder-row">
+      <div class="ph-chip">⚽ Football</div>
+      <div class="ph-chip">🏀 Basketball</div>
+      <div class="ph-chip">🏅 Marathon</div>
+      <div class="ph-chip">🏊 Triathlon</div>
+      <div class="ph-chip">📊 Load Monitoring</div>
+    </div>
+  </section>
 
-    <footer class="site-foot">
-      LOAD/LOG · Εβδομαδιαία σύνοψη επιστημονικής βιβλιογραφίας για ερευνητικούς/εκπαιδευτικούς σκοπούς.<br>
-      Οι περιλήψεις είναι πρωτότυπες αποδόσεις — για πλήρες κείμενο ανατρέξτε στην πρωτότυπη πηγή μέσω των συνδέσμων.
-    </footer>
+  <footer class="site-foot">
+    PACE/LOAD · Εβδομαδιαία σύνοψη επιστημονικής βιβλιογραφίας για ερευνητικούς/εκπαιδευτικούς σκοπούς.<br>
+    Οι περιλήψεις είναι πρωτότυπες αποδόσεις — για πλήρες κείμενο ανατρέξτε στην πρωτότυπη πηγή μέσω των συνδέσμων.
+  </footer>
 
-  </main>
 </div>
 
 </body>
